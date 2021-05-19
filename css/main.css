@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  color: #333;
 }
 
 *, *::before, *::after {
@@ -24,6 +23,8 @@ body {
 
 section {
   padding: 2em 1em;
+  text-align: center;
+
 }
 
 img {
@@ -36,6 +37,7 @@ img {
 
 .text {
   display: inline-block;
+  text-align: left;
   max-width: 25em;
 }
 
